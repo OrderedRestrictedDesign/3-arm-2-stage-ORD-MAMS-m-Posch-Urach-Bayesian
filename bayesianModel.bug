@@ -1,0 +1,22 @@
+model
+{
+
+    for (j in 1:n1) {
+        y1[j] ~ dnorm(mu1, tau)
+    }
+
+    for (j in 1:n2) {
+        y2[j] ~ dnorm(mu2, tau)
+    }
+    for (i in 1:n0) {
+        y0[i] ~ dnorm(mu0, tau)
+    }
+
+    mu1 ~ dnorm(mu01, tau01)
+    mu0 ~ dnorm(mu00, tau00)
+    delta ~ dnorm(delta00, taud)
+
+    mu2 <- mu1-delta
+    theta1 <- mu1-mu0
+    theta2 <- mu2-mu0
+}
