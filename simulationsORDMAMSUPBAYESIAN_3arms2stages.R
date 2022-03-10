@@ -2,7 +2,7 @@ rm(list=ls())
 
 ####### Call for functions ####
 
-source("C:/Users/serraa/OneDrive - University of Cambridge, MRC Biostatistics Unit/Github/functionsORDMAMSUPBAYESIAN_3arms2stages.R")
+source("functionsORDMAMSUPBAYESIAN_3arms2stages.R")
 
 ##### PARAMETERS for the functions #########################
 
