@@ -743,7 +743,7 @@ mcmcrun <- function(modelname, data){
                     "mu1",
                     "mu2",
                     "mu0",
-                    "prod", "delta")
+                    "delta")
   }
   
   setwd(".")
