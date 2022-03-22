@@ -1,7 +1,7 @@
 # Code to reproduce the results on Section 4 of "A Bayesian multi-arm multi-stage clinical trial design incorporating information about treatment ordering"
 
 # The file "functionsORDMAMSUPBAYESIAN_3arms2stages.R" contains 3 functions used for the MAMS(m) design:
-1. bounds_3armJstagem that fnds the critical bounds for a 3-arm or 4-arm J-stage MAMS design
+1. bounds_3armJstagem that finds the critical bounds for a 3-arm or 4-arm J-stage MAMS design
 2. boundaries_3armJstagem that calls the function at 1. and find the sample size to reject all for a 3-arm 2-stage or 3-arm 3-stage MAMS(m) design
 3. simulAll that simulates a 3-arm J-stage MAMS(m) design
 
