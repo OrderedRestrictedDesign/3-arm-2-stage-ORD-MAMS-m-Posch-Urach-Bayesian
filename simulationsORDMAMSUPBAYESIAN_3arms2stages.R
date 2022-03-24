@@ -620,7 +620,7 @@ meandv <- 0
 
 trteffect <- diff
 
-# value/s of mu^(0) were we want to control the FWER
+# value/s of mu^(0) for which we want to control the FWER
 
 null <- seq(mu00-30,mu00+35,by=5) #mu00
 
