@@ -99,6 +99,8 @@ scenario <- unique(data.frame(grid2))
 
 colnames(scenario) <- c("mu0s", "mu1s", "mu2s")
 
+library(dplyr)
+
 scenario <- scenario %>% dplyr::filter(
   mu0s ==489 & (mu1s==609 | mu2s == 609 | (mu1s==489 & mu2s == 489))
 )
